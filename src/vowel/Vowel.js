@@ -1,13 +1,29 @@
 import React from 'react';
+import {Howl, Howler} from 'howler'
+import Bark from '../swag_bark.mp3'
 
 class Vowel extends React.Component {
-    handleClick(e) {
-        e.preventDefault();
-        console.log('The link was clicked.');
-      }
-    render() {
-      return <h2 onClick={this.handleClick}>Short I</h2>;
-    }
+  SoundPlay = (src)=> {
+    const sound = new Howl({src})
+    sound.play();
   }
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+    this.play = false
+  }
+  handleClick(e) {   
+    this.SoundPlay(Bark) 
+    console.log('The link was clicked.');
+  }
+  render() {
+    Howler.volume(0.5)
+    return (
+      <div>
+        <h2 onClick={this.handleClick}>Short</h2>
+      </div>
+    );
+  }
+}
 
 export default Vowel;
