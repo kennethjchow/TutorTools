@@ -13,10 +13,8 @@ class Sound {
         this._displayName = displayName;
     }
     playSound() {
-        Howler.volume(0.5)
-        console.log({Bark})
         const src = {
-            src: ['https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'],
+            src: [this.mp3_filename],
             format: ['mp3'],
             autoplay: true,
             loop: false,

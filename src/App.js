@@ -6,16 +6,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Sound from './class/sound'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Bark from './swag_bark.mp3'
 import './App.css';
 
 
 class App extends React.Component {
   render() {
     let sounds = [];
-    sounds.push(new Sound('Short I', Bark))
-    sounds.push(new Sound('Long I', Bark))
-    sounds.push(new Sound('Short A', Bark))
+    sounds.push(new Sound('Short I', 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'))
+    sounds.push(new Sound('Long I', 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'))
+    sounds.push(new Sound('Short A', 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'))
     return (
       <Container>
         {createRows(sounds)}
@@ -44,15 +43,6 @@ function createRows(sounds) {
   }
   return elements
 }
-
-
-
-let sounds = [
-  new Sound('Long A', '../swag_bark.mp3'),
-  new Sound('Short A', '../swag_bark.mp3'),
-  new Sound('Long I', '../swag_bark.mp3'),
-  new Sound('Short I', '../swag_bark.mp3')
-]
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
