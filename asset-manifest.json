@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/vowel_practice/static/css/main.b8721b4c.chunk.css",
+    "main.js": "/vowel_practice/static/js/main.2489d6d2.chunk.js",
+    "main.js.map": "/vowel_practice/static/js/main.2489d6d2.chunk.js.map",
+    "runtime-main.js": "/vowel_practice/static/js/runtime-main.f29bea4b.js",
+    "runtime-main.js.map": "/vowel_practice/static/js/runtime-main.f29bea4b.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/vowel_practice/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.64f27f19.chunk.js": "/vowel_practice/static/js/2.64f27f19.chunk.js",
+    "static/js/2.64f27f19.chunk.js.map": "/vowel_practice/static/js/2.64f27f19.chunk.js.map",
+    "index.html": "/vowel_practice/index.html",
+    "precache-manifest.a6f19b63bfc1e9a0d6c2ec2bdbd055c9.js": "/vowel_practice/precache-manifest.a6f19b63bfc1e9a0d6c2ec2bdbd055c9.js",
+    "service-worker.js": "/vowel_practice/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/vowel_practice/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.b8721b4c.chunk.css.map": "/vowel_practice/static/css/main.b8721b4c.chunk.css.map",
+    "static/js/2.64f27f19.chunk.js.LICENSE.txt": "/vowel_practice/static/js/2.64f27f19.chunk.js.LICENSE.txt",
+    "static/media/swag_bark.mp3": "/vowel_practice/static/media/swag_bark.02bbb467.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f29bea4b.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.64f27f19.chunk.js",
+    "static/css/main.b8721b4c.chunk.css",
+    "static/js/main.2489d6d2.chunk.js"
+  ]
+}
