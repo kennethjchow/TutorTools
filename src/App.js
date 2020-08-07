@@ -4,20 +4,17 @@ import Vowel from './vowel/Vowel';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Sound from './class/sound'
+import SoundList from './data/SoundList'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 
 class App extends React.Component {
   render() {
-    let sounds = [];
-    sounds.push(new Sound('Short I', 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'))
-    sounds.push(new Sound('Long I', 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'))
-    sounds.push(new Sound('Short A', 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'))
+    let sounds = new SoundList()
     return (
       <Container>
-        {createRows(sounds)}
+        {createRows(sounds.sounds)}
       </Container>
     );
   }

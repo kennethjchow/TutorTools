@@ -1,5 +1,4 @@
 import {Howl, Howler} from 'howler'
-import Bark from '../swag_bark.mp3'
 
 class Sound {
     constructor(displayName, mp3_filename){
