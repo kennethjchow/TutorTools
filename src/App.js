@@ -21,18 +21,18 @@ class App extends React.Component {
 }
 
 function createRows(sounds) {
-  const row_length=3
+  const row_length=2
   const totalNumSounds = sounds.length;
   let index = 0;
   let elements = []
 
   while (index < totalNumSounds) {
-    if (totalNumSounds-row_length < row_length) {
+    if (totalNumSounds-row_length > row_length) {
+      console.log('hi')
       elements.push(
         <Row>
           <Col><Vowel sound={sounds[index]}/></Col>
           <Col><Vowel sound={sounds[index+1]}/></Col>
-          <Col><Vowel sound={sounds[index+2]}/></Col>
         </Row>
       )
     }
