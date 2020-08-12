@@ -1,5 +1,6 @@
 import React from 'react';
 import {Howl, Howler} from 'howler'
+import './Vowel.css'
 
 class Vowel extends React.Component {
   SoundPlay = (src)=> {
@@ -19,7 +20,7 @@ class Vowel extends React.Component {
     Howler.volume(0.5)
     return (
       <div>
-        <h2 onClick={this.handleClick}>{this.props.sound.displayName}</h2>
+        <h2 className="vowel-text" onClick={this.handleClick}>{this.props.sound.displayName}</h2>
       </div>
     );
   }
