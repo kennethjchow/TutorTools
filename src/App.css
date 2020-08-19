@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+#root {
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+}
+
+.row {
+  height: 20%;
+}
+
+.col {
+  margin: 10px;
+}
+
+.app-container {
+  height: 100%
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
