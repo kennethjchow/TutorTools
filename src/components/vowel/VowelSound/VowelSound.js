@@ -1,6 +1,6 @@
 import React from 'react';
 import {Howl, Howler} from 'howler'
-import './Vowel.css'
+import './VowelSound.css'
 
 class Vowel extends React.Component {
   SoundPlay = (src)=> {
