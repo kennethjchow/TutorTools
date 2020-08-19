@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Vowel from './vowel/Vowel';
+import Vowel from './components/vowel/Vowel';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import MainNavbar from './components/mainNavbar/MainNavbar'
 import SoundList from './data/SoundList'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 
@@ -13,9 +14,12 @@ class App extends React.Component {
   render() {
     let sounds = new SoundList()
     return (
-      <Container>
-        {createRows(sounds.sounds)}
-      </Container>
+      <div className="app-container">
+        <MainNavbar></MainNavbar>
+        <Container>
+          {createRows(sounds.sounds)}
+        </Container>
+      </div>
     );
   }
 }

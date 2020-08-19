@@ -1,0 +1,14 @@
+.vowel-text {
+    text-align: center
+}
+
+.vowelContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: 2px solid rgb(189, 195, 255);
+    border-radius: 5px;
+    margin:5px;
+    cursor: pointer;
+}
