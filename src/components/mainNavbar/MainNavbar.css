@@ -1,0 +1,11 @@
+.navTitle{
+    font-family: juneGull;
+}
+
+.navItem {
+    font-family: rounded;
+}
+
+.navContainer {
+    padding:12px;
+}

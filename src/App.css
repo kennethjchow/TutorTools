@@ -56,3 +56,13 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family:"juneGull";
+    src: url("./fonts/junegull.ttf") format("truetype");
+}
+
+@font-face {
+  font-family:"rounded";
+  src: url("./fonts/MPLUSRounded1c-Regular.ttf") format("truetype");
+}

@@ -20,7 +20,7 @@ class Vowel extends React.Component {
     Howler.volume(0.5)
     return (
       <div className="vowelContainer" onClick={this.handleClick}>
-        <h2 className="vowel-text">{this.props.sound.displayName}</h2>
+        <h2 className="vowelText">{this.props.sound.displayName}</h2>
       </div>
     );
   }
