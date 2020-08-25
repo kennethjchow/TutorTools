@@ -14,7 +14,7 @@
 }
 
 .homePageMainText{
-    color:#FFAFA2;
+    color: var(--text-orange);
     margin-left: 120px;
     margin-right: 120px;
 }

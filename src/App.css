@@ -66,3 +66,10 @@
   font-family:"rounded";
   src: url("./fonts/MPLUSRounded1c-Regular.ttf") format("truetype");
 }
+
+:root {
+  --text-orange:#FFAFA2;
+  --background-orange: #FFCB94;
+  --text-navy: #0E2381;
+  
+}

@@ -1,5 +1,9 @@
 .vowelText {
-    text-align: center
+    text-align: center;
+    font-family: rounded;
+    color: var(--text-navy);
+    font-weight: bold;
+
 }
 
 .vowelContainer {
@@ -7,7 +11,7 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-    background: rgb(189, 195, 255);
+    background: var(--background-orange);;
     border-radius: 5px;
     margin:5px;
     cursor: pointer;
