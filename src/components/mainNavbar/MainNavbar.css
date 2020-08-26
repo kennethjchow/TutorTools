@@ -2,11 +2,25 @@
     font-family: juneGull;
 }
 
+.main-navbar{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left:36px;
+    padding-right:36px;
+}
+
 .navItem {
     font-family: rounded;
 }
 
 .navContainer {
-    padding: 12px;
     background-color: #f8f9fa!important;
+}
+.rightNavBarItems {
+    justify-content: flex-end;
+}
+
+.brandItem {
+    margin-left:1rem;
+    margin-right:1rem;
 }
