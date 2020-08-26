@@ -13,7 +13,12 @@ class VowelPracticePage extends React.Component {
     let sounds = new SoundList()
     return (
         <div className="app-container">
+            <h1>Vowel Practice</h1>
             <Container>
+              <Row>
+                <Col className="vowelColumnHeader"><h2>Short</h2></Col>
+                <Col className="vowelColumnHeader"><h2>Long</h2></Col>
+              </Row>
                 {createRows(sounds.sounds)}
             </Container>
         </div>
@@ -31,9 +36,9 @@ function createRows(sounds) {
     if (totalNumSounds-row_length > row_length) {
       console.log('hi')
       elements.push(
-        <Row>
-          <Col><Vowel sound={sounds[index]}/></Col>
-          <Col><Vowel sound={sounds[index+1]}/></Col>
+        <Row className="soundRow">
+          <Col className="soundCol"><Vowel sound={sounds[index]}/></Col>
+          <Col className="soundCol"><Vowel sound={sounds[index+1]}/></Col>
         </Row>
       )
     }
