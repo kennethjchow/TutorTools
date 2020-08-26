@@ -13,7 +13,9 @@ class VowelPracticePage extends React.Component {
     let sounds = new SoundList()
     return (
         <div className="app-container">
-            <h1>Vowel Practice</h1>
+            <div className="section-header">
+              <h1>Vowel Practice</h1>
+            </div>
             <Container>
               <Row>
                 <Col className="vowelColumnHeader"><h2>Short</h2></Col>

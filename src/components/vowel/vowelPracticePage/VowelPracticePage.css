@@ -18,3 +18,8 @@
 .app-container {
   height: 100%
 }
+
+.section-header {
+  padding-left: 36px;
+  padding-right:36px;
+}
