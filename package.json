@@ -1,6 +1,6 @@
 {
   "homepage": "http://kennethjchow.github.io/TutorTools",
-  "name": "TutorTools",
+  "name": "tutor_tools",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
