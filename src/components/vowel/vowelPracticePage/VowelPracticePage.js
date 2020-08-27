@@ -14,7 +14,7 @@ class VowelPracticePage extends React.Component {
     return (
         <div className="app-container">
             <div className="section-header">
-              <h1>Vowel Practice</h1>
+              <h4>english | vowel practice</h4>
             </div>
             <Container>
               <Row>

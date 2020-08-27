@@ -20,6 +20,11 @@
 }
 
 .section-header {
+  padding-top:24px;
+  padding-bottom:24px;
   padding-left: 36px;
   padding-right:36px;
+  color: #ffafa2;
+  font-family: rounded;
+
 }
