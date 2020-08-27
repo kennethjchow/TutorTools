@@ -1,11 +1,3 @@
-.container {
-  height: 100%;
-}
-
-.soundRow {
-  height: 20%;
-}
-
 .soundCol {
   margin: 10px;
 }
@@ -13,18 +5,32 @@
 .vowelColumnHeader{
   text-align: center;
   font-family:rounded;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
 }
 
-.app-container {
-  height: 100%
+.vowel-container {
+  height: 100%;
+  display: flex;
 }
 
 .section-header {
-  padding-top:24px;
-  padding-bottom:24px;
+  height: fit-content;
   padding-left: 36px;
   padding-right:36px;
   color: #ffafa2;
   font-family: rounded;
+  margin-top:36px;
+  margin-bottom:36px;
+}
 
+.gridContainer {
+  height:auto !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

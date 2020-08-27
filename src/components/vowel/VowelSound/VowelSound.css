@@ -3,7 +3,8 @@
     font-family: rounded;
     color: var(--text-navy);
     font-weight: bold;
-
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .vowelContainer {
@@ -13,7 +14,6 @@
     height: 100%;
     background: var(--background-orange);
     border-radius: 5px;
-    margin:5px;
     cursor: pointer;
     box-shadow: 2px 5px 5px #cecece;
 }

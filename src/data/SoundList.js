@@ -5,14 +5,14 @@ class SoundList {
     constructor(){
         this.sounds = [];
         this.sounds.push(new Sound('A', ShortI));
-        this.sounds.push(new Sound('A', ShortI));
-        this.sounds.push(new Sound('E', ShortI));
         this.sounds.push(new Sound('E', ShortI));
         this.sounds.push(new Sound('I', ShortI));
-        this.sounds.push(new Sound('I', ShortI));
-        this.sounds.push(new Sound('O', ShortI));
         this.sounds.push(new Sound('O', ShortI));
         this.sounds.push(new Sound('U', ShortI));
+        this.sounds.push(new Sound('A', ShortI));
+        this.sounds.push(new Sound('E', ShortI));
+        this.sounds.push(new Sound('I', ShortI));
+        this.sounds.push(new Sound('O', ShortI));
         this.sounds.push(new Sound('U', ShortI));
     }
 

@@ -12,16 +12,27 @@ class VowelPracticePage extends React.Component {
   render() {
     let sounds = new SoundList()
     return (
-        <div className="app-container">
+        <div className="vowel-container">
             <div className="section-header">
               <h4>english | vowel practice</h4>
             </div>
-            <Container>
+            <Container className="gridContainer">
               <Row>
                 <Col className="vowelColumnHeader"><h2>Short</h2></Col>
-                <Col className="vowelColumnHeader"><h2>Long</h2></Col>
+                <Col className="soundCol"><Vowel sound={sounds.sounds[0]}/></Col>
+                <Col className="soundCol"><Vowel sound={sounds.sounds[1]}/></Col>
+                <Col className="soundCol"><Vowel sound={sounds.sounds[2]}/></Col>
+                <Col className="soundCol"><Vowel sound={sounds.sounds[3]}/></Col>
+                <Col className="soundCol"><Vowel sound={sounds.sounds[4]}/></Col>
               </Row>
-                {createRows(sounds.sounds)}
+              <Row>
+                <Col className="vowelColumnHeader"><h2>Long</h2></Col>
+                <Col className="soundCol"><Vowel sound={sounds.sounds[5]}/></Col>
+                <Col className="soundCol"><Vowel sound={sounds.sounds[6]}/></Col>
+                <Col className="soundCol"><Vowel sound={sounds.sounds[7]}/></Col>
+                <Col className="soundCol"><Vowel sound={sounds.sounds[8]}/></Col>
+                <Col className="soundCol"><Vowel sound={sounds.sounds[9]}/></Col>
+              </Row>
             </Container>
         </div>
     );
