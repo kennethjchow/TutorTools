@@ -6,6 +6,7 @@ import VowelPracticePage from './components/vowel/vowelPracticePage/VowelPractic
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/home/Home'
 import './App.css';
+import GcfPage from './components/greatestCommonFactor/gcfPage/GcfPage';
 
 
 class App extends React.Component {
@@ -15,8 +16,9 @@ class App extends React.Component {
         <div className="app-container">
           <MainNavbar></MainNavbar>
           <Switch>
-            <Route path="/" exact component={Home}/>
+            <Route path="/" exact component={Home}/>  
             <Route path="/practiceVowels" component={VowelPracticePage} />
+            <Route path="/practiceGcf" component={GcfPage} />
           </Switch>
         </div>
       </Router>

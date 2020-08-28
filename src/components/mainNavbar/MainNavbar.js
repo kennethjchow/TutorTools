@@ -10,7 +10,8 @@ class MainNavbar extends React.Component {
           <Navbar bg="light" variant="light" className="main-navbar">
             <Nav className="mr-auto" className="leftNavBarItems" className="order-1" className="w-100">
               <NavDropdown className="navItem" title="Learning" id="basic-nav-dropdown">
-                <NavDropdown.Item href="practiceVowels" className="navItem">VowelPractice</NavDropdown.Item>
+                <NavDropdown.Item href="practiceVowels" className="navItem">Vowel Practice</NavDropdown.Item>
+                <NavDropdown.Item href="practiceGcf" className="navItem">Greatest Common Factor Practice</NavDropdown.Item>
                 <NavDropdown.Divider />
               </NavDropdown>
               <Nav.Link href="practice" className="navItem">Practice</Nav.Link>

@@ -9,7 +9,7 @@ class Home extends React.Component {
           <div className="titleSection">
             <section className="homePageMainText">
               <h4 className="headerMainText">Tutor Tools</h4>
-              <h2 className="tagMainText">Endless practice for tutors to use with their students</h2>
+              <h2 className="tagMainText">Teaching Tools Created By Tutors For Tutors</h2>
               <p className="descriptionMainText">Easy to use online tools to help practice concepts taught by schools, teachers, and tutors</p>
               
             </section>
