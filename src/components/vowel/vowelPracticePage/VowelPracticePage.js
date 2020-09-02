@@ -39,25 +39,4 @@ class VowelPracticePage extends React.Component {
   }
 }
 
-function createRows(sounds) {
-  const row_length=2
-  const totalNumSounds = sounds.length;
-  let index = 0;
-  let elements = []
-
-  while (index < totalNumSounds) {
-    if (totalNumSounds-row_length > row_length) {
-      console.log('hi')
-      elements.push(
-        <Row className="soundRow">
-          <Col className="soundCol"><Vowel sound={sounds[index]}/></Col>
-          <Col className="soundCol"><Vowel sound={sounds[index+1]}/></Col>
-        </Row>
-      )
-    }
-    index+=row_length
-  }
-  return elements
-}
-
 export default VowelPracticePage;

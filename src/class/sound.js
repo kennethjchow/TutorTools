@@ -1,4 +1,4 @@
-import {Howl, Howler} from 'howler'
+import {Howl} from 'howler'
 
 class Sound {
     constructor(displayName, mp3_filename){

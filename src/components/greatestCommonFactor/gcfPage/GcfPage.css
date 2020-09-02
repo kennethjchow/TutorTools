@@ -1,0 +1,12 @@
+.gcf-container {
+    height: 100%;
+    display: flex;
+  }
+
+.gcf-question-container {
+    height:auto !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
