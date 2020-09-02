@@ -40,9 +40,6 @@ class GcfPage extends React.Component {
             <Form.Group controlId="formBasicEmail">
               <Form.Label>
                 What is the GCF of {this.state.gcfNum1} and {this.state.gcfNum2}
-                <div>
-                  <Tick size={36} />
-                </div>
               </Form.Label>
               <Form.Control autoComplete="off" placeholder="Enter your answer here" onChange={this.handleAnswerChange} />
             </Form.Group>
