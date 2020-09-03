@@ -1,11 +1,10 @@
 import React from 'react';
-import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import SimpleTextQuestion from '../../simpleTextQuestion/simpleTextQuestion'
-import './GcfPage.css';
-import GCFLogic from '../../../data/GCFLogic';
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import SimpleTextQuestion from '../simpleTextQuestion/simpleTextQuestion'
+import GCFLogic from '../../data/GCFLogic';
 
 
-class GcfPage extends React.Component {
+class LcmPage extends React.Component {
   constructor(props) {
     super(props);
 
@@ -14,11 +13,12 @@ class GcfPage extends React.Component {
   }
 
   getQuestionData = () => {
-    const gcfNums = GCFLogic.generateGcfNumbers(5, 20);
-    const correctAnswer = GCFLogic.getGCFTwoNumbers(gcfNums[0], gcfNums[1]); 
+    const lcmNums = GCFLogic.generateLCMQuestionNums(2, 9);
+    const correctAnswer = GCFLogic.lcmTwoNumbers(lcmNums[0], lcmNums[1]); 
+    console.log(correctAnswer);
 
     const result = {
-      'questionText': `What is the Greatest Common Factor of ${gcfNums[0]} and ${gcfNums[1]}`,
+      'questionText': `What is the Least Common Multiple of ${lcmNums[0]} and ${lcmNums[1]}`,
       'correctAnswer': correctAnswer
     }
     return result
@@ -28,7 +28,7 @@ class GcfPage extends React.Component {
     return (
       <div className="gcf-container">
         <div className="section-header">
-          <h4>math | Greatest Common Factor</h4>
+          <h4>math | Least Common Multiple</h4>
         </div>
         <SimpleTextQuestion getQuestionData={this.getQuestionData}></SimpleTextQuestion>
       </div>
@@ -43,4 +43,4 @@ const answerStatus = {
 }
 
 
-export default GcfPage;
+export default LcmPage;

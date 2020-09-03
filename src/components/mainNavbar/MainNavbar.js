@@ -12,6 +12,7 @@ class MainNavbar extends React.Component {
               <NavDropdown className="navItem" title="Learning" id="basic-nav-dropdown">
                 <NavDropdown.Item href="practiceVowels" className="navItem">Vowel Practice</NavDropdown.Item>
                 <NavDropdown.Item href="practiceGcf" className="navItem">Greatest Common Factor Practice</NavDropdown.Item>
+                <NavDropdown.Item href="practiceLcm" className="navItem">Least Common Multiple Practice</NavDropdown.Item>
                 <NavDropdown.Divider />
               </NavDropdown>
               <Nav.Link href="practice" className="navItem">Practice</Nav.Link>
